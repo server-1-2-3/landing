@@ -8,6 +8,7 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 
 import "./globals.css";
 import { siteConfig } from "@/config/site";
+import { RTLDirectionWrapper } from "@/components/wrappers/RTLWrapper";
 
 const { title, description } = siteConfig;
 
@@ -25,20 +26,24 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body
+        dir="rtl"
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          <div className="relative flex min-h-screen flex-col">
-            <Navbar />
+          <RTLDirectionWrapper>
+            <div className="relative flex min-h-screen flex-col">
+              <Navbar />
 
-            <div className="flex-1">{children}</div>
-            <Footer />
-            <ScrollToTop />
-          </div>
+              <div className="flex-1">{children}</div>
+              <Footer />
+              <ScrollToTop />
+            </div>
+          </RTLDirectionWrapper>
         </ThemeProvider>
+
       </body>
     </html>
   );
