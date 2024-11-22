@@ -21,7 +21,7 @@ export const Navbar = () => {
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <a href="/" className="ml-2 font-bold text-xl flex">
-              <LogoIcon />
+              {/* <LogoIcon /> */}
               <span className="hidden md:block">{title}</span>
             </a>
           </NavigationMenuItem>
@@ -48,15 +48,6 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <Link
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-              target="_blank"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
-            >
-              <GitHubLogoIcon className="mr-2 w-5 h-5" />
-              Github
-            </Link>
-
             <ModeToggle />
           </div>
         </NavigationMenuList>

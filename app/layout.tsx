@@ -23,13 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="fa" suppressHydrationWarning>
       <head />
       <body
         dir="rtl"
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          "min-h-screen bg-background  antialiased",
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>

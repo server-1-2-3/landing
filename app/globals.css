@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Vazir matn font definitions */
+
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Vazirmatn-Black.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Vazirmatn-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+
 /* *=========== Default theme =========== */
 @layer base {
   :root {
@@ -73,6 +93,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Vazirmatn', sans-serif;
   }
 }
 

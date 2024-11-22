@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "YetuAi",
-  title: "Yetu Ai",
+  name: "سرور 1,2,3",
+  title: "سرور۱۲۳",
   description:
     "YetuAi is a startup that provides AI solutions for businesses and individuals.",
   mainNav: [
