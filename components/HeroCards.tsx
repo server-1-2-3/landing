@@ -50,8 +50,8 @@ export const HeroCards = () => {
             >
               <span className="sr-only">Github icon</span>
               <svg fill="#ef2929" width="25px" height="25px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-fill="">
-                <g id="SVGRepo_bgCarrier" stroke-width="0" />
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" strokeLinejoin="round" />
+                <g id="SVGRepo_bgCarrier" strokeWidth="0" />
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
                 <g id="SVGRepo_iconCarrier"> <path d="M14.156 15.297l6.25 4.927-4.141-10.214zM16 0c-8.839 0-16 7.161-16 16s7.161 16 16 16c8.839 0 16-7.161 16-16s-7.161-16-16-16zM23.729 23.073c-0.016 0.63-0.536 1.125-1.167 1.109-0.313 0-0.552-0.12-0.885-0.391l-8.255-6.667-2.771 6.938h-2.396l6.995-16.807c0.167-0.422 0.568-0.693 1.021-0.677 0.432-0.016 0.839 0.25 0.99 0.677l6.365 15.323c0.057 0.151 0.104 0.313 0.104 0.464 0 0.010 0 0.010 0 0.031z" /> </g>
               </svg>
             </Link>
@@ -103,7 +103,7 @@ export const HeroCards = () => {
           <CardTitle className="flex item-center justify-between">
             سرور Gitlab
             <Badge variant="secondary" className="text-sm text-primary">
-              پرطرفدارترین  
+              پرطرفدارترین
             </Badge>
           </CardTitle>
           <div>
@@ -137,13 +137,13 @@ export const HeroCards = () => {
       </Card>
 
       {/* Service */}
-      <Card className="absolute w-[350px] -right-[10px] bottom-[-60px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      <Card className="absolute w-[350px] -right-[10px] bottom-[-90px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
           <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
             <LightBulbIcon></LightBulbIcon>
           </div>
           <div>
-            <CardTitle>گواهی‌نامه های بین المللی</CardTitle>
+            <CardTitle>گواهی‌نامه بین المللی</CardTitle>
             <CardDescription className="text-md mt-2">
               تصحیل گواهی‌نامه های بین‌المللی.
             </CardDescription>
@@ -151,7 +151,7 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
         <CardFooter>
-          <div className="space-y-4">
+          <div className="space-y-4 w-full">
             {["آمازون", "پی ام ای (PMI)", "کامپتیا (CompTIA)", ". . ."].map(
               (benefit: string) => (
                 <span key={benefit} className="flex">
@@ -160,8 +160,17 @@ export const HeroCards = () => {
                 </span>
               )
             )}
-          </div>
 
+            <Link
+              href="#certificates"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              }) + ' w-full'}
+            >
+              <Button className="w-full">دیدن گواهینامه‌ها</Button>
+            </Link>
+          </div>
         </CardFooter>
       </Card>
     </div>
