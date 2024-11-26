@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accesibility",
+    title: "شناسایی زیر ساخت هدف",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "در ابتدا می بایست نیاز خود را در زیرساخت جهت دریافت با کیفیت ترین زیرساخت شناسایی نمایید.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "ثبت نام و ورود به سایت",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "ابتدا می بایست در سایت ثبت نام نمایید و به حساب کاربری خود وارد شده و حساب خود را فعال نمایید .",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "دریافت زیرساخت",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "پس از اینکه اکانت شما فعال شد . می توانید زیرساخت مد نظر خود را که در مرحله اول شناسایی نموده اید تهیه نمایید.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "شروع به استفاده",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "از سرویس‌های خود استفاده کنید و لذت ببرید. در صورت نیاز همکاران شما در تمامی مراحل همراه ما هستند",
   },
 ];
 
@@ -38,15 +38,15 @@ export const HowItWorks = () => {
   return (
     <section id="howItWorks" className="container text-center py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+        چند{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+          گام{" "}
         </span>
-        Step-by-Step Guide
+        ساده برای دریافت سرویس در ۳ دقیقه
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        شما می توانید با کمک ما مشکلات خود را به سادگی رفع نمایید و بدون دغدغه به توسعه نرم افزار یا زیرساخت خود بپردازید .
+        می توانید به راحتی زیرساخت آماده خود را ایجاد نمایید بدون اینکه وابسته باشید !
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

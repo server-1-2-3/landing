@@ -19,44 +19,49 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "هدف خود را انتخاب کنید",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "ما انواع بسیاری از مدارک بین‌المللی را ارائه میدهیم. لیست را مشاهده کنید و هدف خود را انتخاب کنید.",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "با کارشناسان در ارطبات باشید",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "کارشناسان ما در تمامی مراحل دریافت مدارک و گواهینامه‌‌های بین‌المللی در کنار شما هستند.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "برای آزمون نهایی اماده شوید",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "موفقیت در یک قدمی شماست. پس از آزمون نهایی گواهینامه خود را تحویل بگیرید.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "آمازون",
+  "پی ام ای (PMI)",
+  "کامپتیا (CompTIA)",
+  "گوگل",
+  "آی ای پی پی (IAPP)",
+  "ال پی ای (LPI)",
+  "مایکروسافت",
+  "فورتینت",
+  "سازمان پایتون",
+  "اچ پی (HP)",
+  "اسکرام (Scrum)",
+  "Appian",
+  "ISTQB",
+  "CSA"
 ];
 
 export const Features = () => {
   return (
-    <section id="features" className="container py-24 sm:py-32 space-y-8">
+    <section id="certificates" className="container py-24 sm:py-32 space-y-8">
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        گواهینامه‌های {" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+        بین‌المللی 
         </span>
       </h2>
 

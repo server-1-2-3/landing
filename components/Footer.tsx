@@ -4,9 +4,9 @@ import { LogoIcon } from "./Icons";
 export const Footer = () => {
   return (
     <footer id="footer">
-      <hr className="w-11/12 mx-auto" />
+      <hr className="w-11/12 mx-auto mb-10"/>
 
-      <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
+      {/* <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
         <div className="col-span-full xl:col-span-2">
           <Link href="/" className="font-bold text-xl flex">
             <LogoIcon />
@@ -97,17 +97,17 @@ export const Footer = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &copy; تمام حقوق برای سرور۱۲۳{" "}
           <Link
             target="_blank"
             href="https://github.com/fredygerman"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Fredy German
+            محفوظ است
           </Link>
         </h3>
       </section>

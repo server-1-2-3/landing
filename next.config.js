@@ -9,5 +9,14 @@ module.exports = {
         pathname: "/**",
       },
     ],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.svgrepo.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
+
   },
 };

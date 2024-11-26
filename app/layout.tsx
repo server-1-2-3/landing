@@ -1,10 +1,9 @@
-import type { Metadata } from "next";
 import { cn } from "@/lib/utils";
-import { fontSans } from "@/styles/fonts";
-import { ThemeProvider } from "@/components/providers/theme-provider";
+import type { Metadata } from "next";
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { ThemeProvider } from "@/components/providers/theme-provider";
 
 import "./globals.css";
 import { siteConfig } from "@/config/site";

@@ -16,16 +16,13 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  About{" "}
+                  درباره{" "}
                 </span>
-                Company
+                سرور ۱۲۳
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+                در سرور ۱۲۳، خدمات پیشرفته زیرساختی و مدارک معتبر بین‌المللی ارائه می‌کنیم. هدف ما توانمندسازی توسعه‌دهندگان و متخصصان IT برای ارتقای مهارت‌ها و همگام شدن با استانداردهای جهانی است.
+                با تمرکز بر کیفیت و نوآوری، دسترسی آسان به دانش فنی و اعتبار حرفه‌ای را فراهم می‌کنیم. سرور۱۲۳ همراه مطمئن شما در مسیر رشد، موفقیت و دستیابی به جایگاه جهانی است.
               </p>
             </div>
 
