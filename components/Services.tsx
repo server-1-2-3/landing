@@ -1,34 +1,31 @@
-import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
-import cubeLeg from "../assets/cube-leg.png";
-import Image from "next/image";
+// import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
 
-interface ServiceProps {
-  title: string;
-  description: string;
-  icon: JSX.Element;
-}
+// interface ServiceProps {
+//   title: string;
+//   description: string;
+//   icon: JSX.Element;
+// }
 
-const serviceList: ServiceProps[] = [
-  {
-    title: "Code Collaboration",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <ChartIcon />,
-  },
-  {
-    title: "Project Management",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <WalletIcon />,
-  },
-  {
-    title: "Task Automation",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <MagnifierIcon />,
-  },
-];
+// const serviceList: ServiceProps[] = [
+//   {
+//     title: "Code Collaboration",
+//     description:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+//     icon: <ChartIcon />,
+//   },
+//   {
+//     title: "Project Management",
+//     description:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+//     icon: <WalletIcon />,
+//   },
+//   {
+//     title: "Task Automation",
+//     description:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+//     icon: <MagnifierIcon />,
+//   },
+// ];
 
 export const Services = () => {
   return (<></>)

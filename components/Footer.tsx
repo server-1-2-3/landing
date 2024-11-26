@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { LogoIcon } from "./Icons";
 
 export const Footer = () => {
   return (

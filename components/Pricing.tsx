@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Check, Circle, GitlabIcon } from "lucide-react";
+import { Circle, GitlabIcon } from "lucide-react";
 
 enum PopularPlanType {
   NO = 0,
