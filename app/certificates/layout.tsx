@@ -18,16 +18,18 @@ export default function RootLayout({
 
     <SidebarProvider className="relative flex justify-center items-center min-h-screen">
       <CertificatesSideBar />
-      <main className="relative w-full pt-[50px]">
-        <div className="flex justify-start absolute top-5 right-5">
-          <SidebarTrigger />
-        </div>
-        <div>
-          <div className="relative flex min-h-screen flex-col">
-            <div className="flex-1">{children}</div>
+      <div className="container">
+        <main className="relative w-full pt-[50px]">
+          <div className="flex justify-start absolute top-5 right-5">
+            <SidebarTrigger />
           </div>
-        </div>
-      </main>
+          <div>
+            <div className="relative flex min-h-screen flex-col">
+              <div className="flex-1">{children}</div>
+            </div>
+          </div>
+        </main>
+      </div>
     </SidebarProvider>
   )
 }

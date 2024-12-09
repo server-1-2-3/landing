@@ -9,7 +9,7 @@ export const navbarLinksList: NavProps[] = [
     label: "ویژگی‌ها",
   },
   {
-    href: "#certificates",
+    href: "/certificates",
     label: "گواهینامه ها",
   },
   {
