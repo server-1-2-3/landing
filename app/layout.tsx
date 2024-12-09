@@ -30,7 +30,7 @@ export default function RootLayout({
           "min-h-screen bg-background  antialiased",
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <RTLDirectionWrapper>
             <div className="relative flex min-h-screen flex-col">
               <Navbar />

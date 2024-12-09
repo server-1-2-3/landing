@@ -160,7 +160,7 @@ export const HeroCards = () => {
             )}
 
             <Link
-              href="#certificates"
+              href="/certificates"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",
