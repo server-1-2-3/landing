@@ -9,7 +9,7 @@ export const CertificateCard = function ({ certificate }: { certificate: Product
 
   return (
     <div
-      className="relative flex-row w-full h-full h-[300px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-115 hover:bg-blue-700 hover:text-white duration-300 rounded-xl border cursor-pointer m-3 max-w-[350px] flex-col items-start justify-start  whitespace-warp"
+      className="relative flex-row w-full h-[300px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-115 hover:bg-blue-700 hover:text-white duration-300 rounded-xl border cursor-pointer m-3 max-w-[350px] flex-col items-start justify-start  whitespace-warp"
     >
       <div className="w-[100%] bg-blue-500 p-2 text-center  bg-opacity-[0.2] text-small">{certificate.name}</div>
       

@@ -30,7 +30,7 @@ export default function CartificatesCategoryItems() {
   return (
     <>
       <div className="p-4">
-        <h1 className="text-6xl p-10">{name.toString()}</h1>
+        <h1 className="text-6xl py-10">{name.toString()}</h1>
         <p> فقط کافیست هدف خود را انتخاب و سپس پرداخت کنید</p>
 
       </div>
