@@ -17,7 +17,7 @@ export const Cta = () => {
             نیاز دارید یکجا در یک ساختار مدیریت شده
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-            هدف همیشگلی ما، کمک به پیشرفت جامعه IT بوده و هست
+            هدف همیشگی ما، کمک به پیشرفت جامعه IT بوده و هست
           </p>
         </div>
 
