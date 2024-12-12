@@ -32,7 +32,7 @@ export const CertificatesHero = () => {
           </Link>
 
           <Link
-            href="https://server123.ir/blog-grid/"
+            href="https://my.server123.ir/index.php/knowledgebase"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
