@@ -28,14 +28,14 @@ let notifications = [
     color: "#FFB800",
   },
   {
-    name: "گواهینامه ۱",
+    name: "گواهینامه AWS",
     description: "",
     time: "",
     icon: "💬",
     color: "#FF3D71",
   },
   {
-    name: "گواهینامه ۲",
+    name: "گواهینامه GOOGLE",
     description: "",
     time: "",
     icon: "🗞️",
