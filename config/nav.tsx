@@ -5,7 +5,7 @@ export interface NavProps {
 
 export const navbarLinksList: NavProps[] = [
   {
-    href: "#features",
+    href: "/#features",
     label: "ویژگی‌ها",
   },
   {
@@ -13,11 +13,11 @@ export const navbarLinksList: NavProps[] = [
     label: "گواهینامه ها",
   },
   {
-    href: "#pricing",
+    href: "/#pricing",
     label: "قیمت",
   },
   {
-    href: "#faq",
+    href: "/#faq",
     label: "سوالات پر تکرار",
   },
 ];
