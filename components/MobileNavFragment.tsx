@@ -10,7 +10,6 @@ import {
 import { navbarLinksList, NavProps } from "@/config/nav";
 import { Menu } from "lucide-react";
 import { buttonVariants } from "./ui/button";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
