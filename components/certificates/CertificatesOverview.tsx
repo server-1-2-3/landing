@@ -48,7 +48,7 @@ const featureList: string[] = [
 
 export const CertificatesOverview = () => {
   return (
-    <section id="overview" className="container relative py-20 sm:py-20 space-y-8">
+    <section id="overview" className="overflow-hidden container relative py-20 sm:py-20 space-y-8">
       <h2 className="z-10 text-3xl lg:text-4xl font-bold md:text-center">
         گواهینامه‌های {" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">

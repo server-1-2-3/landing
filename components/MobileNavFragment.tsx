@@ -20,6 +20,7 @@ export const MobileNavFragment = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
+      
       <SheetTrigger className="px-2">
         <Menu
           className="flex md:hidden h-5 w-5"
@@ -27,6 +28,7 @@ export const MobileNavFragment = () => {
         >
           {/* <span className="sr-only">Menu Icon</span> */}
         </Menu>
+        
       </SheetTrigger>
 
       <SheetContent side={"left"}>
@@ -44,16 +46,6 @@ export const MobileNavFragment = () => {
               {label}
             </Link>
           ))}
-          <Link
-            href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-            target="_blank"
-            className={`w-[110px] border ${buttonVariants({
-              variant: "secondary",
-            })}`}
-          >
-            <GitHubLogoIcon className="mr-2 w-5 h-5" />
-            Github
-          </Link>
         </nav>
       </SheetContent>
     </Sheet>

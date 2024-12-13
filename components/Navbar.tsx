@@ -20,7 +20,7 @@ export const Navbar = () => {
           <NavigationMenuItem className="font-bold flex">
             <a href="/" className="ml-2 font-bold text-xl flex">
               {/* <LogoIcon /> */}
-              <span className="hidden md:block">{title}</span>
+              <span className="">{title}</span>
             </a>
           </NavigationMenuItem>
 
