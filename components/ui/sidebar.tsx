@@ -283,7 +283,7 @@ const SidebarTrigger = React.forwardRef<
         <MenuIcon className={`${isMobile? 'pl-2': ''}`} />
         {!isMobile ? ('') : (
           <span>
-            لیست دوره ها
+            لیست گواهینامه‌ها
           </span>
         )}
       </div>
